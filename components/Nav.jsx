@@ -10,9 +10,9 @@ import {motion} from 'framer-motion';
 
 const links = [
     {path: '/',           name: 'home'},
+    {path: '/',           name: 'skills'},
+    {path: '/',           name: 'experience'}, 
     {path: '/projects',   name: 'projects'},
-    {path: '/skills',     name: 'skills'},
-    {path: '/experience', name: 'experience'},
     {path: '/contact',    name: 'contact'},
 ]
 

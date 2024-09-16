@@ -7,17 +7,16 @@ const useScrollProgress = () => {
         const updateScrollCompletion = () => {
             const currentProgress = window.scrollY;
             const scrollHeight = document.body.scrollHeight - window.innerHeight;
-
             if (scrollHeight) {
-                setCompletion(number(currentProgress/scrollHeight).toFixed(2) * 100)
+                setCompletion((currentProgress / scrollHeight).toFixed(2) * 100)
             }
-        }
+        };
 
         window.addEventListener('scroll', updateScrollCompletion);
 
         return () => window.removeEventListener('scroll', updateScrollCompletion);
 
-    },[])
+    },[]);
 
   return completion;
 }
