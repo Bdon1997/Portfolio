@@ -5,7 +5,7 @@ import About from "@/components/About";
 
 export default function Home() {
   return (
-    <main>
+    <main className='xl:px-12 2xl:px-6'>
       <Hero />
       <About />
     </main>

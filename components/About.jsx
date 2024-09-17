@@ -14,7 +14,7 @@ const infoData = [
     },
     {
         icon: <MailIcon size={20} />,
-        text: 'Bokanga@gmail.com',
+        text: 'Bokanga97.bb@gmail.com',
     },
     {
         icon: <Calendar size={20} />,
@@ -114,11 +114,58 @@ const About = () => {
         return arr.find((item) => item.title === title);
     }
 
-    console.log(getData(qualificationData,'experience'));
   return (
     <section className='xl:h-[860px] pb-12 xl:py-24'>
-        <div className="container mx-auto">
-            <h2 className='section-title mb-8 xl:,b-26 text-center mx-auto'>About Me</h2>
+        <div className=" container mx-auto sm:px-6">
+            <h2 className='section-title mb-8 xl:mb-26 text-center mx-auto'>About Me</h2>
+            <div className='flex flex-col xl:flex-row'>
+                {/* Image */}
+                <div className='hidden xl:flex flex-1 relative'>
+                    <DevImg  containerStyles='bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' imgSrc='/hero/developer.png'/>
+                </div> 
+                {/* tabs */}
+                <div className='flex-1'>
+                    <Tabs defaultValue='personal'>
+                        <TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none">
+                            <TabsTrigger className="w-[162px] xl:w-auto" value='personal'>Personal Info</TabsTrigger>
+                            <TabsTrigger className="w-[162px] xl:w-auto" value='qualification'>Qualifications</TabsTrigger>
+                            <TabsTrigger className="w-[162px] xl:w-auto" value='skills'>Skills</TabsTrigger>
+                        </TabsList>
+                        <div className='text-lg mt-12 xl:mt-8'>
+                            {/* personal */}
+                            <TabsContent value='personal'>
+                                <div className='text-center xl:text-left'>
+                                    <h3 className='h3 mb-4'>
+                                        Creating amazing designs using cutting-edge technology
+                                    </h3>
+                                    <p className='subtitle max-auto xl:mx-0'>
+                                        Been programming for 4 years, working primarily with; ABL Openedge Progress, HTML, CSS JavaScript, Azure Devops, Azure data factories and SQL databases and more.
+                                    </p>
+                                    {/* Icons */}
+                                    <div className='grid xl:grid-cols-2 gap-4 mb-12'>
+                                        {infoData.map((item, index) => {
+                                            return ( 
+                                            <div className='flex items-center gap-x-4 mx-auto xl:mx-0' key={index}>
+                                                <div className='text-primary'>{item.icon}</div>
+                                                <div>{item.text}</div>
+                                            </div>
+                                            )
+                                        })}
+                                    </div>
+                                    {/* Languages */}
+                                    <div className='flex flex-col gap-y-2'>
+                                        <div className='text-primary h4'>Languages Skills</div>
+                                        <div className="border-b border-border"></div>
+                                        <div>HTML,CSS,JavaScript,SQL,ABL,Python</div>
+                                    </div>
+                                </div>
+                            </TabsContent>
+                            <TabsContent value='qualification'>qualification Info</TabsContent>
+                            <TabsContent value='skills'>Skills Info</TabsContent>
+                        </div> 
+                    </Tabs>
+                </div>
+            </div>
         </div>
     </section>
   )
