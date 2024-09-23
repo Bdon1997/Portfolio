@@ -38,7 +38,7 @@ const Header = () => {
                         />
                         <ThemeToggler/> 
                         {/* mobilenav */}
-                        <div className='md:hidden xl:hidden'>
+                        <div className=' xl:hidden'>
                             <MobileNav />
                         </div>
                     </div>
