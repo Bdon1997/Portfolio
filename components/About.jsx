@@ -1,7 +1,19 @@
 import DevImg from './DevImg';
 import Image from 'next/image';
 import {Tabs, TabsContent, TabsList, TabsTrigger} from '@/components/ui/tabs';
-import {User2, MailIcon, HomeIcon, PhoneCall, GraduationCap, CalendarRange, Briefcase, Calendar, University, Section} from 'lucide-react';
+import {User2, MailIcon, HomeIcon, PhoneCall, GraduationCap, Briefcase, Calendar} from 'lucide-react';
+
+// skills tool icons
+import vscode from '../public/about/vscode.svg'
+import nodejs from '../public/about/node-js.svg'
+import npm from '../public/about/npm.svg'
+import react from '../public/about/react.svg'
+import mssql from '../public/about/microsoft-sql-server.svg'
+import azure from '../public/about/azure.svg'
+
+// dev image
+import imgdev from '../public/hero/developer.png';
+
 
 const infoData = [
     {
@@ -86,22 +98,22 @@ const skillsData = [
         title: 'tools',
         data: [
             {
-                imgPath: '/about/vscode.svg'
+                imgPath: vscode
             },
             {
-                imgPath: '/about/node-js.svg'
+                imgPath: nodejs
             },
             {
-                imgPath: '/about/npm.svg'
+                imgPath: npm
             },
             {
-                imgPath: '/about/react.svg'
+                imgPath: react
             },
             {
-                imgPath: '/about/microsoft-sql-server.svg'
+                imgPath: mssql
             },
             {
-                imgPath: '/about/azure.svg'
+                imgPath: azure
             },
 
         ],
@@ -120,7 +132,7 @@ const About = () => {
             <div className='flex flex-col xl:flex-row'>
                 {/* Image */}
                 <div className='hidden xl:flex flex-1 relative'>
-                    <DevImg  containerStyles='bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' imgSrc='/hero/developer.png'/>
+                    <DevImg  containerStyles='bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative' imgSrc={imgdev}/>
                 </div> 
                 {/* tabs */}
                 <div className='flex-1'>
