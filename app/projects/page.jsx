@@ -5,10 +5,10 @@ import {Tabs, TabsList, TabsContent, TabsTrigger} from '@/components/ui/tabs';
 import ProjectCard from '@/components/ProjectCard';
 
 //images
-import img7 from '../public/work/7.png';
-import img6 from '../public/work/6.png';
-import img2 from '../public/work/2.png';
-import img4 from '../public/work/4.png';
+import img7 from '../../public/work/7.png';
+import img6 from '../../public/work/6.png';
+import img2 from '../../public/work/2.png';
+import img4 from '../../public/work/4.png';
 
 
 const projectData = [
