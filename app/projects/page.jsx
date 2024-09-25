@@ -30,7 +30,7 @@ const projectData = [
       github: 'https://github.com/Bdon1997/Simon-Game',
   },
   {
-    image: '/work/3.png',
+    image: '/work/2.png',
     category: 'Next Js',
     name: 'Portfolio',
     description: 'Portfolio to host my work',

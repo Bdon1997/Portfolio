@@ -33,11 +33,11 @@ const projectData = [
         github: 'https://github.com/Bdon1997/CarDealership',
     },
     {
-      image: '/work/4.png',
+      image: '/work/2.png',
       category: 'Next Js',
       name: 'Portfolio',
       description: 'Portfolio to host my work',
-      link: 'https://bdon1997.github.io/Spotify-Clone/',
+      link: '/',
       github: 'https://github.com/Bdon1997/Portfolio',
   },
   ];
