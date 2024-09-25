@@ -10,14 +10,14 @@ const ProjectCard = ({project}) => {
     <Card className='group overflow-hidden relative'>
         <CardHeader className='p-0'>
             {/* Image */}
-             <div className='relative w-full h-[300px] flex items-center justify-center 
+            <div className='relative w-full h-[300px] flex items-center justify-center 
                              bg-tertiary dark:bg-secondary/40 xl:bg-work_project_bg_light xl:bg-[110%]'>
-                <Image  className='absolute bottom-0 shadow-2xl' 
+                    <Image  className='absolute bottom-0 shadow-2xl rounded-t-lg'
                         src={project.image} 
-                        width={247} 
+                        width={190} 
                         height={250} 
                         alt='project'
-                />
+                    />
                 {/* btn links */}
                 <div className='flex gap-x-4'>
                     <Link href={project.link} className='bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center 
@@ -30,7 +30,6 @@ const ProjectCard = ({project}) => {
                                                          transition-all duration-200'>
                         <RiGithubFill className='w-[50px] h-[50px]'/>
                     </Link>
-
                 </div>
             </div>
         </CardHeader>

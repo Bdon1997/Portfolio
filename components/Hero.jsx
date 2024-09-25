@@ -22,10 +22,10 @@ const Hero = () => {
             <div className='flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'>
                     <div className='text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>Web Developer</div>
                     <h1 className='h1 mb-4'>Browndon Bokanga, Welcome to my portfolio</h1>
-                    <p className='subtitle max-w-[490px] mx-auto xl-mx-0'>Creating many amazing designs</p>
+                    <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>Creating many amazing designs</p>
                 <div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
-                    <Link href='/contact'>
-                        <Button className='gap-x-2'>Contact Me <Send size={18}/> </Button>
+                    <Link href='https://www.linkedin.com/in/browndon-bokanga-93b509184/'>
+                        <Button className='gap-x-2'>Contact Me <Send size={18}/></Button>
                     </Link>
                     <Button variant='secondary' className='gap-x-2'>Download CV <Download size={18}/> </Button>
                 </div>

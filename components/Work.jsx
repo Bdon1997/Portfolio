@@ -14,11 +14,10 @@ import {Pagination} from 'swiper/modules';
 
 // components
 import ProjectCard from '@/components/ProjectCard';
-import { Description } from '@radix-ui/react-dialog';
 
 const projectData = [
     {
-        image: '/work/1.png',
+        image: '/work/7.png',
         category: 'react js',
         name: 'Spotify Clone',
         description: 'Spotify clone made using react',
@@ -26,7 +25,7 @@ const projectData = [
         github: 'https://github.com/Bdon1997/Spotify-Clone',
     },
     {
-        image: '/work/2.png',
+        image: '/work/6.png',
         category: 'Vanilla js',
         name: ' CarGremlins Dealership',
         description: 'Built a Car dealership landing page',
@@ -34,16 +33,15 @@ const projectData = [
         github: 'https://github.com/Bdon1997/CarDealership',
     },
     {
-        image: '/work/3.png',
-        category: 'Vanilla js',
-        name: 'Simon Game',
-        description: 'Built a Simon Game',
-        link: 'https://bdon1997.github.io/Spotify-Clone/',
-        github: 'https://github.com/Bdon1997/Spotify-Clone',
-    },
-
-];
-
+      image: '/work/4.png',
+      category: 'Next Js',
+      name: 'Portfolio',
+      description: 'Portfolio to host my work',
+      link: 'https://bdon1997.github.io/Spotify-Clone/',
+      github: 'https://github.com/Bdon1997/Portfolio',
+  },
+  ];
+  
 const Work = () => {
   return (
     <section className='relative mb-12 xl:mb-48 '>
@@ -52,7 +50,7 @@ const Work = () => {
             <div className='max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] 
                             flex flex-col justify-center items-center xl:items-start'>
                 <h2 className='section-title mb-4'>Latest Projects</h2>
-                <p className='subtitle mb-8'>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p className='subtitle mb-8'>Explore the many more projects I've created and will soon add to.</p>
                 <Link href='/projects'><Button>All projects</Button></Link>
             </div>
             {/* Slider */}
