@@ -17,6 +17,7 @@ const ProjectCard = ({project}) => {
                         width={190} 
                         height={250} 
                         alt='project'
+                        unoptimized
                     />
                 {/* btn links */}
                 <div className='flex gap-x-4'>
