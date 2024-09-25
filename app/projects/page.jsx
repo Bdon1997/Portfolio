@@ -4,9 +4,16 @@ import {Tabs, TabsList, TabsContent, TabsTrigger} from '@/components/ui/tabs';
 
 import ProjectCard from '@/components/ProjectCard';
 
+//images
+import img7 from '../public/work/7.png';
+import img6 from '../public/work/6.png';
+import img2 from '../public/work/2.png';
+import img4 from '../public/work/4.png';
+
+
 const projectData = [
   {
-      image: '/work/7.png',
+      image: img7,
       category: 'react js',
       name: 'Spotify Clone',
       description: 'Spotify clone made using react',
@@ -14,7 +21,7 @@ const projectData = [
       github: 'https://github.com/Bdon1997/Spotify-Clone',
   },
   {
-      image: '/work/6.png',
+      image: img6,
       category: 'Vanilla js',
       name: ' CarGremlins Dealership',
       description: 'Car dealership landing page',
@@ -22,7 +29,7 @@ const projectData = [
       github: 'https://github.com/Bdon1997/CarDealership',
   },
   {
-      image: '/work/4.png',
+      image: img4,
       category: 'Vanilla js',
       name: 'Simon Game',
       description: 'Built a Simon Game',
@@ -30,7 +37,7 @@ const projectData = [
       github: 'https://github.com/Bdon1997/Simon-Game',
   },
   {
-    image: '/work/2.png',
+    image: img2,
     category: 'Next Js',
     name: 'Portfolio',
     description: 'Portfolio to host my work',

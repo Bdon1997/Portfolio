@@ -16,6 +16,8 @@ import {Pagination} from 'swiper/modules';
 import ProjectCard from '@/components/ProjectCard';
 
 import img7 from '../public/work/7.png';
+import img6 from '../public/work/6.png';
+import img2 from '../public/work/2.png';
 
 const projectData = [
     {
@@ -27,7 +29,7 @@ const projectData = [
         github: 'https://github.com/Bdon1997/Spotify-Clone',
     },
     {
-        image: '/work/6.png',
+        image: img6,
         category: 'Vanilla js',
         name: ' CarGremlins Dealership',
         description: 'Built a Car dealership landing page',
@@ -35,7 +37,7 @@ const projectData = [
         github: 'https://github.com/Bdon1997/CarDealership',
     },
     {
-      image: '/work/2.png',
+      image: img2,
       category: 'Next Js',
       name: 'Portfolio',
       description: 'Portfolio to host my work',

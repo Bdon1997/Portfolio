@@ -13,6 +13,9 @@ import {
 import DevImg from './DevImg';
 import Social from './Social';
 
+//image
+import imgdev from '../public/hero/developer.png';
+
 const Hero = () => {
   return (
   <section className='xl:px-12 2xl:px-6 py-6 xl:py-24 h-[84vh] xl:pt-8 bg-hero bg-cover bg-no-repeat bg-bottom dark:bg-none'>
@@ -37,7 +40,7 @@ const Hero = () => {
                 <div className='bg-hero_shape2_light dark:bg-hero_shape2_dark w-[450px] h-[500px] bg-no-repeat absolute
                     -top-1 -right-2'></div>
                     <DevImg containerStyles='bg-hero_shape w-[500px] h-[500px] bg-no-repeat relative bg-bottom' 
-                    imgSrc='/hero/developer.png'/>
+                    imgSrc={imgdev}/>
             </div>
         </div>
     </div>
