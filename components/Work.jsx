@@ -15,7 +15,7 @@ import {Pagination} from 'swiper/modules';
 // components
 import ProjectCard from '@/components/ProjectCard';
 
-import img7 from '/work/7.png';
+import img7 from '../public/work/7.png';
 
 const projectData = [
     {
