@@ -15,9 +15,11 @@ import {Pagination} from 'swiper/modules';
 // components
 import ProjectCard from '@/components/ProjectCard';
 
+import img7 from '/work/7.png';
+
 const projectData = [
     {
-        image: '/work/7.png',
+        image: img7,
         category: 'react js',
         name: 'Spotify Clone',
         description: 'Spotify clone made using react',
