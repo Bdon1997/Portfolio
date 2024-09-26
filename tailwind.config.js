@@ -75,5 +75,6 @@ module.exports = {
 		}
   	}
   },
+  entry: '../public/work/browndon_bokanga_CVlatest.pdf',
   plugins: [require("tailwindcss-animate")],
 };

@@ -16,7 +16,8 @@ import Social from './Social';
 //image
 import imgdev from '../public/hero/developer.png';
 
-
+//file
+//import CV from '../public/work/browndon_bokanga_CVlatest.pdf';
 
 const Hero = () => {
   return (
@@ -32,7 +33,9 @@ const Hero = () => {
                     <Link href='https://www.linkedin.com/in/browndon-bokanga-93b509184/'>
                         <Button className='gap-x-2'>Contact Me <Send size={18}/></Button>
                     </Link>
-                    <Button variant='secondary' className='gap-x-2'>Download CV <Download size={18}/> </Button>
+                    {/* <a href={'/'} download="CV">
+                        <Button variant='secondary' className='gap-x-2'>Download CV <Download size={18}/> </Button>
+                    </a> */}
                 </div>
                 {/* Socials */}
                 <Social containerStyles='flex gap-x-6 mx-auto xl:mx-0' iconsStyles='text-foreground text-[35px] hover:text-primary transition-all'/>
