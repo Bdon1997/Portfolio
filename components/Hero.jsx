@@ -14,7 +14,7 @@ import DevImg from './DevImg';
 import Social from './Social';
 
 //image
-import imgdev from '../public/hero/developer.png';
+import imgdev from '../public/hero/developer3.png';
 
 //file
 //import CV from '../public/work/browndon_bokanga_CVlatest.pdf';
@@ -44,7 +44,7 @@ const Hero = () => {
             <div className='hidden xl:flex relative'>
                 <div className='bg-hero_shape2_light dark:bg-hero_shape2_dark w-[450px] h-[500px] bg-no-repeat absolute
                     -top-1 -right-2'></div>
-                    <DevImg containerStyles='bg-hero_shape w-[500px] h-[500px] bg-no-repeat relative bg-bottom' 
+                    <DevImg containerStyles=' w-[500px] h-[500px] bg-no-repeat relative bg-bottom' 
                     imgSrc={imgdev}/>
             </div>
         </div>
